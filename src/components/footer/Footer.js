@@ -8,10 +8,9 @@ const Footer = () => {
     <footer>
       <div className="icon-foo">
         <a href=""></a> <FaFacebookSquare size={28} />
-        <a href=""> </a>
-        <BsLinkedin size={28} />
+        <a href=""> </a> <BsLinkedin size={28} />
         <a href=""> </a> <RiInstagramFill size={28} />
-        <h3>Francisco Cernujo Bermesco</h3>
+        <h3>Francisco Cernusco Cornejo</h3>
       </div>
     </footer>
   );
