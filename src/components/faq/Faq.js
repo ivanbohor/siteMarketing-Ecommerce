@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { MdOutlineLibraryBooks } from "react-icons/md";
 import Question from "./Question";
 import { questions } from "./data";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Faq = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <section id="faq">
       <div className="container faq">
-        <div className="u-title">
+        <div className="u-title" data-aos="fade-up">
           <MdOutlineLibraryBooks color="#346A73" size={30} />
           <h2>FAQS</h2>
           <p className="u-text-small u-text-dark">
@@ -15,7 +22,7 @@ const Faq = () => {
             aliquid beatae dolorum, expedita, Delectus.
           </p>
         </div>
-        <div className="questions">
+        <div className="questions" data-aos="fade-bottom">
           {questions.map((question) => (
             <Question title={question.title} answer={question.answer} />
           ))}

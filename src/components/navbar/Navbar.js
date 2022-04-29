@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="container navbar">
       <div className="logo">
         <p className="logo-text">
-          <span>F</span>rancisco <span>C</span>ernusco
+          <span>H</span>yperion
           <FaCreativeCommonsRemix
             className="nav-ic"
             color="#7EBC8D"
@@ -37,7 +37,7 @@ const Navbar = () => {
             <a href="#features"> Servicios</a>
           </li>
           <li>
-            <a href="#"> Sobre Mi</a>
+            <a href="#"> Sobre Nosotros</a>
           </li>
           <li>
             <a href="#faq"> Faqs</a>

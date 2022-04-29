@@ -10,7 +10,7 @@ const Footer = () => {
         <a href=""></a> <FaFacebookSquare size={28} />
         <a href=""> </a> <BsLinkedin size={28} />
         <a href=""> </a> <RiInstagramFill size={28} />
-        <h3>Francisco Cernusco Cornejo</h3>
+        <h3>Hyperion</h3>
       </div>
     </footer>
   );

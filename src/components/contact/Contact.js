@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Contact.css";
 import { MdEmail } from "react-icons/md";
 import { FaFacebookMessenger } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { GiConversation } from "react-icons/gi";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-const contact = () => {
+const Contact = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
-    <section id="contact">
+    <section id="contact" data-aos="fade-up">
       <div className="u-title">
         <GiConversation size={35} color="#346A73" />
         <h2>Contacto</h2>
@@ -77,4 +84,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
