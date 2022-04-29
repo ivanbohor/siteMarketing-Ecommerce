@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import "./Feature.css";
+import "aos/dist/aos.css";
 import { BsHexagon } from "react-icons/bs";
 import { FaAccessibleIcon, FaGg } from "react-icons/fa";
 import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Feature = ({ icon, text, heading }) => {
   useEffect(() => {

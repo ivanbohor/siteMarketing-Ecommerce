@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import "./Features.css";
+import "aos/dist/aos.css";
 import { BsFillBookmarkStarFill } from "react-icons/bs";
 import phoneFeatures from "../../assets/lampmin.png";
 import Feature from "./Feature";
 import { featureList } from "./data.js";
 import AOS from "aos";
-import "aos/dist/aos.css";
 const Features = () => {
   useEffect(() => {
     AOS.init({

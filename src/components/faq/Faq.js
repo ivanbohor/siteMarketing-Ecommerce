@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { MdOutlineLibraryBooks } from "react-icons/md";
+import "aos/dist/aos.css";
 import Question from "./Question";
 import { questions } from "./data";
 import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Faq = () => {
   useEffect(() => {

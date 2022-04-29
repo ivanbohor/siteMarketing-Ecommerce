@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import Button from "../UI/button/Button";
 import "./Header.css";
+import "aos/dist/aos.css";
 import "../UI/button/Button.css";
 import phoneHeader from "../../assets/headerFoc.png";
 import { BsMouse } from "react-icons/bs";
 import AOS from "aos";
-import "aos/dist/aos.css";
 const Header = () => {
   useEffect(() => {
     AOS.init({
