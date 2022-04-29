@@ -1,4 +1,5 @@
 import "./App.css";
+
 import { Navbar, Header, Features, Faq, Contact, Footer } from "./components";
 function App() {
   return (

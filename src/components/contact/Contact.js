@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
 import "./Contact.css";
-import "aos/dist/aos.css";
 import { MdEmail } from "react-icons/md";
 import { FaFacebookMessenger } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { GiConversation } from "react-icons/gi";
+
 import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
   useEffect(() => {
