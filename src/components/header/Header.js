@@ -31,7 +31,7 @@ const Header = () => {
           <p className="u-text-small u-text-light">
             Desarrollamos e implementamos estrategias que ayuden al
             fortalecimiento de la reputación empresarial, construyendo marcas
-            que son símbolo del cambio positivo!
+            que son símbolo del cambio positivo.
           </p>
           <div className="header-cta">
             <Button

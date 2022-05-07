@@ -29,9 +29,9 @@ const Aboutus = () => {
             <img src={about1} alt="empresa" />
           </div>
           <div className="profile-text" data-aos="fade-left">
-            <p className="u-text-small u-text-dark" style={{ paddingTop: 15 }}>
+            <p className="u-text-small u-text-dark" style={{ paddingTop: 10 }}>
               Somos un equipo de profesionales expertos en marketing,
-              creatividad y diseño.Contamos con una estructura
+              creatividad y diseño. <br /> Contamos con una estructura
               multidisciplinaria que nos permite la especialización en distintas
               áreas.
             </p>
@@ -42,7 +42,7 @@ const Aboutus = () => {
             <img src={about2} alt="empresa" />
           </div>
           <div className="profile-text" data-aos="fade-right">
-            <p className="u-text-small u-text-dark" style={{ paddingTop: 15 }}>
+            <p className="u-text-small u-text-dark" style={{ paddingTop: 13 }}>
               Promovemos un intercambio ideológico constante que aporta valor
               agregado a nuestro proceso creativo, desarrollando conceptos y
               estrategias impactantes y efectivas
