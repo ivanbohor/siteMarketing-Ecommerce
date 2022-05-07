@@ -1,6 +1,7 @@
 import "./App.css";
 
 import { Navbar, Header, Features, Faq, Contact, Footer } from "./components";
+import Aboutus from "./components/aboutus/Aboutus";
 function App() {
   return (
     <main>
@@ -9,6 +10,7 @@ function App() {
         <Header />
       </header>
       <Features />
+      <Aboutus />
       <Faq />
       <Contact />
       <Footer />

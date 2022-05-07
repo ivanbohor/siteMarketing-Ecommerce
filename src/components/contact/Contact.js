@@ -20,8 +20,8 @@ const Contact = () => {
         <GiConversation size={35} color="#346A73" />
         <h2>Contacto</h2>
         <p className="u-text-small u-text-dark">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste ad ut
-          aliquid beatae dolorum, expedita, Delectus.
+          Contanos tu idea/proyecto! Nos pondremos en contacto contigo lo antes
+          posible.
         </p>
       </div>
       <div className="container contact">

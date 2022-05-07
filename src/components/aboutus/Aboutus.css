@@ -1,0 +1,76 @@
+#abouts{
+    width:100%;
+    height: auto;
+}
+.cont-ab{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    gap: 3rem;
+
+}
+.cont-ab img{
+    width: 100%;
+    height: 100%;
+    border-radius:20px;
+    -webkit-box-shadow: 3px 44px 34px -3px rgba(0,0,0,0.54);
+-moz-box-shadow: 3px 44px 34px -3px rgba(0,0,0,0.54);
+box-shadow: 3px 44px 34px -3px rgba(0,0,0,0.54);
+
+    
+
+}
+.bloque1{
+    display: flex;
+    width:100%;
+    height:400px;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 4rem;
+border-radius:20px;
+
+}
+.bloque2{
+    display: flex;
+    width:100%;
+    height:400px;
+    gap: 2rem;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.profile{
+    width:60%;
+    height:100%;
+    border-radius:20px;
+}
+.profile-text{
+    width:40%;
+    height:50%;
+    border: 4px solid #7EBC8D;
+    border-radius:20px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .profile-text{
+        height:auto;
+    }
+    #abouts > div.cont-ab > div.bloque1 > div.profile-text > p{
+        font-size: 1.3rem;
+    }
+    #abouts > div.cont-ab > div.bloque2 > div.profile-text > p{
+        font-size: 1.3rem;
+    }
+    .cont-ab img{
+        height: 70%;
+    }
+    .cont-ab{
+        gap: 0rem;
+    }
+
+}

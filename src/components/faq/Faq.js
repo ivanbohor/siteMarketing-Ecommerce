@@ -19,8 +19,9 @@ const Faq = () => {
           <MdOutlineLibraryBooks color="#346A73" size={30} />
           <h2>FAQS</h2>
           <p className="u-text-small u-text-dark">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste ad ut
-            aliquid beatae dolorum, expedita, Delectus.
+            Te ofreceremos las mejores herramientas y las ideas más novedosas
+            siempre adaptadas a las nuevas tendencias en términos de
+            digitalización y sostenibilidad
           </p>
         </div>
         <div className="questions" data-aos="fade-bottom">

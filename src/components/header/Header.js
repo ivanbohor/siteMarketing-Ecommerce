@@ -22,16 +22,23 @@ const Header = () => {
               Asesoria en <br />
               Ecommerce y Marketing Ecologico
             </span>
-            <span>Lorem tempore eum!</span>
-            <span>Lorem ipsum dolor sit </span>
+
+            <span>
+              Combinamos la vision creativa con la estrategia comercial para
+              ayudarte a conectar con tu mercado!{" "}
+            </span>
           </h1>
           <p className="u-text-small u-text-light">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-            deleniti mollitia facere praesentium sint error molestiae aspernatur
-            rem sed?
+            Desarrollamos e implementamos estrategias que ayuden al
+            fortalecimiento de la reputación empresarial, construyendo marcas
+            que son símbolo del cambio positivo!
           </p>
           <div className="header-cta">
-            <Button text={"About Me"} btnClass={"btn-dark"} href={"#"} />
+            <Button
+              text={"Sobre Nosotros"}
+              btnClass={"btn-dark"}
+              href={"#abouts"}
+            />
             <Button
               text={"Servicios"}
               btnClass={"btn-orange"}
