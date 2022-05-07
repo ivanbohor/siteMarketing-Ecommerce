@@ -31,22 +31,17 @@ const Navbar = () => {
           id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}
         >
           <li>
-            <a href="#"> Home</a>
+            <a href="#header"> Home</a>
           </li>
           <li>
             <a href="#features"> Servicios</a>
           </li>
           <li>
-            <a href="#"> Sobre Nosotros</a>
+            <a href="#abouts"> Sobre Nosotros</a>
           </li>
           <li>
             <a href="#faq"> Faqs</a>
           </li>
-          {/* <li className="nav-btn">
-            <a href="#" className="btn btn-dark">
-              Get Started
-            </a>
-          </li> */}
           <li className="nav-btn">
             <Button text={"Contacto"} btnClass={"btn-dark"} href={"#contact"} />
           </li>

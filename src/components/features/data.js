@@ -20,7 +20,7 @@ export const featureList = [
     id: 3,
     icon: <MdConnectWithoutContact color="#7EBC8D" size={25} />,
     heading: "EVENTOS SOCIALES Y AMBIENTALES",
-    text: "La Responsabilidad Social Corporativa de una empresa se ha convertido en un elemento clave a integrar, así como su comunicación de una manera correcta a todos los grupos de interés para impactarles y concienciarles en sostenibilidad. Gracias a esta estrategia conseguiremos un win to win tanto para la empresas como para la sociedad y el medio ambiente.",
+    text: "La Responsabilidad Social Corporativa de una empresa se ha convertido en un elemento clave a integrar, así como su comunicación de una manera correcta a todos los grupos de interés para mayor impacto y concientizar en sostenibilidad. Gracias a esta estrategia conseguiremos un win to win tanto para la empresas como para la sociedad y el medio ambiente.",
   },
   {
     id: 4,
